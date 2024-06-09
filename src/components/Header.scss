@@ -1,0 +1,41 @@
+header {
+  padding: 0.5rem 1rem;
+  color: #f9f9f9;
+  background: rgb(50, 50, 50);
+
+  .btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+
+    button {
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .logout,
+    .register {
+      background: rgb(249 239 89);
+      border: 2px solid rgb(249 239 89);
+      padding: 0.4rem 0.9rem;
+      border-radius: 5px;
+      color: rgb(50, 50, 50);
+
+      &:hover {
+        border: 2px solid rgb(249 239 89);
+        background: none;
+        color: #f9f9f9;
+      }
+    }
+
+    .login {
+      background: none;
+      border: 2px solid rgb(249 239 89);
+      padding: 0.4rem 0.9rem;
+      border-radius: 5px;
+      color: #f9f9f9;
+    }
+  }
+}

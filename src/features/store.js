@@ -9,5 +9,5 @@ export default configureStore({
 });
 
 export const axiosServer = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "https://wanderon.adaptable.app",
 });
